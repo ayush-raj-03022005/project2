@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.anhRk3gSzf2CxJ3O_Ch6zQHaCb&pid=Api&P=0&h=220);
+}
+
+.container {
+    width: 300px;
+    padding: 16px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email]:focus, select:focus, textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+button {
+    background-color: #3f13ed;
+    color: rgba(255, 255, 255, 0.772);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}

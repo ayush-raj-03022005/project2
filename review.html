@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Rental Service Review</title>
+    <link rel="stylesheet" type="text/css" href="review.css">
+</head>
+<body>
+
+    <h2>Leave a Review</h2>
+
+    <div class="container">
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="review"><b>Review</b></label>
+        <textarea rows="4" cols="50" placeholder="Write your review here..." name="review" required></textarea>
+
+        <label for="rating"><b>Rating</b></label>
+        <select name="rating" id="rating">
+            <option value="1">1 - Poor</option>
+            <option value="2">2 - Fair</option>
+            <option value="3">3 - Good</option>
+            <option value="4">4 - Very Good</option>
+            <option value="5">5 - Excellent</option>
+        </select>
+
+        <button type="submit">Submit Review</button>
+    </div>
+
+</body>
+</html>
